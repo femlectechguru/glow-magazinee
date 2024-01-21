@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="crystal.css" type="text/css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="stylesheet" href="path/to/aos.css">
     <title>Crystal Blog</title>
 </head>
 <body>
     <main class="container">
-        <div class="container-img">
+        <div data-aos="fade-down" class="container-img">
             <img src="./bible reading.jpg" alt="bible-reading" class="bible-img"/>
             <div class="crystal-logo">
             <img src="./Crystal squad.png" alt="Crystal-logo" class="crystal-icon"/>
@@ -36,7 +37,7 @@
                   </div>
             </article>
             <article>
-                <h4>
+                <h4 data-aos="fade-down">
                     EMBRACING GOD'S TIMING</h4>
                   <p>Scripted plans often come with timelines and deadlines, but God's plan unfolds according to His 
                     perfect timing. As Ecclesiastes 3:11 reminds us, 
@@ -46,7 +47,7 @@
                 </div>
               </article >
               <article>
-                <h4>
+                <h4 data-aos="fade-down">
                     SURRENDERING TO GOD'S LEADING:</h4>
                   <p>In a world that encourages self-determination, 
                     surrendering our plans to God may seem counterintuitive. However, Proverbs 3:5-6 advises 
@@ -57,7 +58,7 @@
                 </div>
               </article >
               <article>
-                <h4>EMBRACING THE UNEXPECTED </h4>
+                <h4 data-aos="fade-down">EMBRACING THE UNEXPECTED </h4>
                   <p>God's plans often involve detours and surprises.The story of Joseph in Genesis 37-50 serves as a 
                     powerful reminder that setbacks can lead to breakthroughs. Joseph's journey from a pit 
                     to the palace was unscripted, but through it, 
@@ -66,7 +67,7 @@
                 </div>
               </article >
               <article>
-                <h4>TRUSTING IN GOD'S PROVISION: </h4>
+                <h4 data-aos="fade-down">TRUSTING IN GOD'S PROVISION: </h4>
                   <p>Fear and uncertainty can hinder us from stepping into the unscripted. However, Jesus 
                     assures us in Mathew 6:26, "Look at the birds 
                     of the air; they do not sow or reap or store away 
@@ -89,9 +90,9 @@
                 </div>
               </article >
               <article>
-                <h2>DID YOU KNOW ? </h2>
-                <div class="carrot-image">
-                  <img src="./carrot.jpeg" alt=""  class="icon">
+                <h2 data-aos="fade-down">DID YOU KNOW ? </h2>
+                <div class="carrot-image" data-aos="fade-left">
+                  <img  src="./carrot.jpeg" alt=""  class="icon">
                 </div>
                 <h4 class="did-you-know">Amazing Health Benefits of Carrots</h4>
                   <li class="list-menu">1. Boosts eye health
@@ -109,7 +110,7 @@
                     7. Boosts immunity</li>
                 </div>
               </article >
-              <article class="avatar">
+              <article class="avatar" data-aos="fade-left">
                 <img src="./esther-oladejo.jpg" alt="" class="avatar-img">
                 <p>Written by <span>Esther oladejo & Caleb Rauf </span></p>
             </article>
@@ -118,7 +119,16 @@
     </main>
     <footer class="attribution">
 		Powered by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Crystal Squad</a>
-		Coded by <a href="https://github.com/femlectechguru/benevolent.git">Femlectechguru </a>
+		Inspired by <a href="https://github.com/femlectechguru/benevolent.git">Love & Light</a>
 </footer>
+<script src="path/to/aos.js"></script>
+
+  <!-- Initialize AOS with options -->
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 100
+    });
+  </script>
 </body>
 </html>

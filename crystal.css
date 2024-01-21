@@ -29,7 +29,7 @@ body{
     width: 100%;
     height: 700px;
     border-radius: 2rem;
-    /* opacity: ; */
+    opacity: .0.5;
 }
 .crystal-logo{
     display: flex;
@@ -50,6 +50,9 @@ body{
     position: relative;
     bottom: -6px;
     left: 35rem;
+}
+.ul li{
+    color: black;
 }
 ul li:hover {
     list-style: none;
@@ -173,7 +176,7 @@ h2{
     .bible-img{
         width: 550px;
         height: 400px;
-        padding-right: 10px;
+        padding-right: 11px;
     }
     .faith-logo{
     width:9rem ;
