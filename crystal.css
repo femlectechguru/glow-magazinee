@@ -164,26 +164,33 @@ h2{
 }
     
 }
-@media(min-width:320px) { 
+@media(max-width:320px) { 
     .container{
-        width: 560px;
+        width: 300px;
         margin: 0  1rem;
-        padding-right: 1rem;
+        padding-right: 1.6rem;
     }
     .attribution{
         padding-left: 1.5rem;
     }
     .bible-img{
-        width: 550px;
+        width: 290px;
         height: 400px;
-        padding-right: 11px;
+        padding-right: 29px;
     }
     .faith-logo{
-    width:9rem ;
-    height: 10rem;
+    width:5rem ;
+    height: 7rem;
     position: relative;
-    bottom: 1px;
-    left: 12rem;
+    bottom: -5px;
+    left: 3rem;
+}
+.crystal-icon{
+    width:9rem ;
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
+    
 }
 .list-menu{
     color: black;
@@ -194,6 +201,11 @@ h2{
 }
 .icon{
     border-radius: 1.5rem;
+    color: black !important;
+    width: 270px;
+}
+.list-menu{
+    color: black;
 }
     
 }  
