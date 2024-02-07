@@ -20,7 +20,7 @@
 body{
     font-family: "Outfit",sans-serif;
     font-size: 18px;
-    background-color: var(--main-bg);
+    background-color: var(--white);
     color: hsl(36, 48%, 75%);
     padding: 1.25rem;
 
@@ -79,19 +79,19 @@ ul li:hover {
 }
 
 .container h1{
-    color:var(--white); 
+    color:var(--main-bg); 
     margin: 1rem 0.5rem 0.5rem 0;
     padding-left: 0.5rem;
 }
 .container h2{
-    color: var(--card-bg);
+    color: var(--main-bg);
 }
 .container h1:hover{
     color: var(--cyan);
     cursor: pointer;
 }
 .container ul li:first-child{
-    color: var(--white);
+    color: var(--main-bg);
 }
 
 .container ul{
@@ -113,7 +113,7 @@ ul li:hover {
 }
 h4{
     /* color: black; */
-    color: var(--white);
+    color: var(--card-bg);
     margin-top: 1rem;
     font-size: 1.5rem;
 }
@@ -126,12 +126,12 @@ p{
 }
 .container .avatar img{
     width: 2 rem;
-    border: 2px solid var(--white);
+    border: 2px solid var(--main-bg);
     border-radius: 50%;
     margin-right: 2rem;
 }
 .container .avatar p span{
-    color: var(--white);
+    color: var(--main-bg);
     font-weight: 400;
 }
 .container .avatar p span:hover{
