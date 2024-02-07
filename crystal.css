@@ -125,9 +125,9 @@ p{
     font-family: "Outfit",sans-serif;
 }
 .container .avatar img{
-    width: 2 rem;
+    width: 10rem;
     border: 2px solid var(--main-bg);
-    border-radius: 50%;
+    border-radius: 1rem;
     margin-right: 2rem;
 }
 .container .avatar p span{
