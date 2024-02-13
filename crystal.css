@@ -111,14 +111,20 @@ ul li:hover {
     font-weight: 800;
     margin: 1rem 0;
 }
+
 h4{
     /* color: black; */
     color: var(--card-bg);
     margin-top: 1rem;
     font-size: 1.5rem;
 }
+article.span{
+    margin-top: 1rem;
+
+}
 p{
     line-height: 1.8;
+    margin-top: 0.8rem;
     /* color: var(--white); */
     color: black;
     font-weight: 300;
@@ -200,7 +206,7 @@ h2{
 
 @media screen and (max-width: 375px){
     .faith-logo{
-        width:8.5rem;
+        width:8rem;
         height: 5.7rem;
         position: relative;
         bottom: -5px;
