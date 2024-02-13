@@ -183,6 +183,7 @@ h2{
         position: relative;
         bottom: -.20rem;
         left: -1rem;
+        opacity: 0.5;
     }
     .crystal-icon{
         width: 11rem;
@@ -211,6 +212,7 @@ h2{
         position: relative;
         bottom: -5px;
         left: .5rem;
+        opacity: 0.5
     }
     .crystal-icon {
     width: 11rem;
