@@ -133,7 +133,7 @@ p{
 .container .avatar img{
     width: 10rem;
     border: 2px solid var(--main-bg);
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-right: 2rem;
 }
 .container .avatar p span{
@@ -154,8 +154,8 @@ h2{
     margin: 1rem 0.5rem;
 }
 .avatar-img{
-    width: 5rem;
-    height: 6rem;
+    width: 4rem;
+    height: 8rem;
     margin-bottom: 1rem;
 }
 .carrot-image.icon{
