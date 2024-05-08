@@ -31,7 +31,7 @@ body{
 img{
     max-width: 100%;
     /* aspect-ratio: 1; */
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .bible-img{
     /* min-width: 600px; */
@@ -160,6 +160,10 @@ h2{
 }
 .carrot-image.icon{
     border-radius: 3rem;
+}
+.carrot-image{
+    height: 30rem;
+    overflow: hidden;
 }
 .attribution{
     color: black;
