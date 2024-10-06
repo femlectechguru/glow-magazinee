@@ -114,7 +114,14 @@ ul li:hover {
 
 h4{
     /* color: black; */
-    color: var(--dark-grey);
+    color: chocolate;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+h3{
+    /* color: black; */
+    color: chocolate;
     margin-top: 1rem;
     font-size: 1.5rem;
 }
