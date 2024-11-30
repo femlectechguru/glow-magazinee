@@ -144,7 +144,7 @@ p{
     margin-right: 2rem;
 }
 .container .avatar p span{
-    color: var(--main-bg);
+    color: var(--dark-grey);
     font-weight: 400;
 }
 .container .avatar p span:hover{
